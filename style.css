@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Kosugi Maru', sans-serif;
+    background-color: black;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.normal_text {
+    color: white;
+    font-size: 17px;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+.side_air {
+    width: auto;
+    height: 100vh;
+    padding-right: 300px;
+    padding-left: 300px;
+    /* padding-right: 25%; */
+    /* padding-left: 25%; */
+}
+
+.main_display_air {
+    width: auto;
+    height: 200px;
+    padding-top: 50px;
+    padding-right: 10%;
+    padding-left: 23%;
+    /* padding-right: 100px; */
+    /* padding-left: 200px; */
+    /* padding-right: calc(auto - 60%); */
+    /* padding-left: calc(auto - 60%); */
+}
+
+.menubar {
+    height: 800px;
+    width: 138px;
+    position: fixed;
+}
+
+.main_logo {
+    margin: 20px;
+}
+
+.page_buttons {
+    width: 138px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+
+.home_page_button,
+.info_page_button,
+.sns_page_button {
+    padding: 10px;
+    margin: 8px;
+    font-size: 17px;
+    display: block;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.home_page_button:hover,
+.info_page_button:hover,
+.sns_page_button:hover {
+    background-color: white;
+    color: red;
+    transition-duration: 0.1s;
+}
