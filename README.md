@@ -1,1 +1,2 @@
-# onlyava.avatars
+# なんでGitHubで公開してるの？
+GitHubの機能を使用してサイトを公開しているためです。
